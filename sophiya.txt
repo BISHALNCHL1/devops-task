@@ -1,0 +1,18 @@
+adduser devops-sophiya
+   groupadd nchl
+   usermod -G nchl devops-sophiya
+tar -zxvf jdk-8u221-linux-x64.tar.gz 
+    sudo cp -R jdk1.8.0_221/ /usr/java/
+     sudo mv -R jdk1.8.0_221/ /usr/
+    sudo vi  /etc/sudoers
+    sudo vi /etc/profile.d/javajdk.sh
+     sudo chown -R root jdk1.8.0_221/
+  
+      sudo cp -R jdk1.8.0_221/ /usr/
+     sudo vi /etc/profile.d/javajdk.sh
+     java --version
+
+ssh-keygen -t rsa
+sudo systemctl enable firewalld
+netstat -natp
+netstat -tp
