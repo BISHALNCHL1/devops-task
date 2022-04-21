@@ -1,0 +1,11 @@
+1. 	useradd devops-ankit
+	passwd devops-ankit
+	usermod -aG nchl devops-ankit
+
+5. 	firewall-cmd --permanent --add-port=80/tcp
+	firewall-cmd --permanent --add-port=443/tcp
+	firewall-cmd --permanent --add-port=53/tcp
+
+8. netstat -tupan
+9. netstat -tupan
+
