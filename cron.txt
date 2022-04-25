@@ -1,0 +1,9 @@
+ 
+30 11 * * 0 find /var/log/ -mtime +7 -type f -name 'messages.log*' -exec mv {} /tmp/ \;
+30 11 * * 1 find /var/log/ -mtime +7 -type f -name 'messages.log*' -exec mv {} /tmp/ \;
+30 11 * * 2 find /var/log/ -mtime +7 -type f -name 'messages.log*' -exec mv {} /tmp/ \;
+30 11 * * 3 find /var/log/ -mtime +7 -type f -name 'messages.log*' -exec mv {} /tmp/ \;
+30 11 * * 4 find /var/log/ -mtime +7 -type f -name 'messages.log*' -exec mv {} /tmp/ \;
+30 11 * * 5 find /var/log/ -mtime +7 -type f -name 'messages.log*' -exec mv {} /tmp/ \;
+30 11 * * 6 find /var/log/ -mtime +7 -type f -name 'messages.log*' -exec mv {} /tmp/ \;
+

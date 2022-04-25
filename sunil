@@ -1,0 +1,60 @@
+#############
+
+useradd sunil
+greoup assign nchl
+
+ 111  ls
+  112  cd /tmp/
+  113  ls
+  114  useradd devops
+  115  passwd devops
+  116  celar
+  117  clear
+  118  ls
+  119  su - devops
+  120  ls
+  121  cp jdk-8u221-linux-x64.tar.gz /home/devops/
+  122  ls
+  123  su - devops
+  124  systemctl status fiewalld
+  125  systemctl status firewalld
+  126  firewall-cmd --list-dports
+  127  firewall-cmd --list-ports
+  128  firewall-cmd --permanent --add-port=80/tcp
+  129  firewall-cmd --permanent --add-port=443/tcp
+  130  firewall-cmd --permanent -zone=public --add-service=dns
+  131  firewall-cmd --permanent --zone=public --add-service=dns
+  132  firewall-cmd --list-ports
+  133  firewall-cmd --permanent --add-port=53/tcp
+  134  firewall-cmd --permanent --add-port=53/udp
+  135  firewall-cmd --list-ports
+  136  firewall-cmd --list-all
+  137  firewall-cmd --permanent -zone=public --add-port=80/tcp
+  138  firewall-cmd --permanent --zone=public --add-port=80/tcp
+  139  clear
+  140  firewall-cmd --list-all
+  141  celar
+  142  ls
+  143  systemctl restart firewalld
+  144  firewall-cmd --list-all
+  145  celar
+  146  clear
+  147  ls
+  148  cd
+  149  ls
+  150  su - devops
+  151  cd /tmp/
+  152  ;s
+  153  ls
+  154  cp apache-tomcat-8.5.20.tar.gz /home/devops/
+  155  ls
+  156  cp apache-tomcat-8.5.20.tar.gz /home/devops/
+  157  su - devops
+  158  mkdir /etc/keys
+  159  cd /etc/keys/
+  160  ls
+  161  keytool -genkey -alias tomcat -keyalg RSA -keystore
+  162  su - devops
+  163  crontab -e
+  164  history
+
